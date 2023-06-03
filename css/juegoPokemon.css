@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.juegoPokemon {
+    display: grid;
+
+}
+
+.encabezado{
+    grid-template-columns: (1, 5px);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    border: 5px dashed;
+}
+
+body {
+    background-image: url('../img/fondoPokemon.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+
+button {
+    border-radius: 5px;
+    margin: 8px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn_opciones {
+    background-color: #d8d833;
+}
+
+.btn_reiniciar {
+    background-color: #183f1f;
+    color: aliceblue;
+}
+
+.btn_opciones:hover {
+    background-color: #dd542e;
+    box-shadow: 0px 0px 80px -1px #018d18;
+}
+
+.btn_reiniciar:hover {
+    background-color: #dd542e;
+    box-shadow: 0px 0px 80px -1px #018d18;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.respuesta {
+    background: #0000ff;
+    border: 0px solid;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    margin: 20px;
+    color: aliceblue;
+}
+

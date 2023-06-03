@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/juegoPokemon.js"></script>
+    <link rel="stylesheet" href="../css/juegoPokemon.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="encabezado">
+        <h4 class="textoInicial" id="puntaje"> <strong> Puntaje: </strong></h4>
+        <label id="puntos" class="textoInicial"></label>
+        <h4 class="textoInicial" id="intentos"> <strong> Intentos:  </strong></h4>
+        <label id="intento" class="textoInicial"></label>
+        <h4 class="textoInicial" id="textoInicial"> <strong> Seleccione el Pokemon correcto </strong></h4>
+    </div>
+    </header>
+    <nav>
+
+    </nav>
+    <section>
+        <div class="container">
+            <div class="juegoPokemon">
+                <img id="imagenNegro" src="../img/imagenNegra.jpg" alt="No se puede mostrar la imagen de su pokemon"
+                    class="imagenes">
+                <button class="btn_opciones" onclick="verificarOpcion('keldeo')">Keldeo-ordinary</button>
+                <button class="btn_opciones" onclick="verificarOpcion('drilbur')">Drilbur</button>
+                <button class="btn_opciones" onclick="verificarOpcion('ninjask')">Ninjask</button>
+                <button class="btn_opciones" onclick="verificarOpcion('excadrill')">Excadrill</button>
+                <label id="labelRespuesta" class="respuesta"></label>
+                <button class="btn_reiniciar" onclick="reiniciar()">Reiniciar</button>
+
+
+    </section>
+    <footer>
+
+    </footer>
+    </div>
+    </div>
+</body>
+
+</html>
